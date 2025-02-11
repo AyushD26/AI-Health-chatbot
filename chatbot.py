@@ -3,7 +3,7 @@ import google.generativeai as genai
 import datetime
 
 # Set up Google Gemini API Key
-genai.configure(api_key="AIzaSyDYa0sPJajfq5XhcxOPJjpAQEryomXQ0OA")
+genai.configure(api_key="Your API key")
 
 # Function to log chat history
 def log_conversation(user_input, bot_response):
